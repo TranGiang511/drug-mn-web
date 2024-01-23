@@ -1,0 +1,236 @@
+a {
+    text-decoration: none;
+}
+.header h1 a {
+    text-decoration: none;
+}
+.header h1 a:hover {
+    text-decoration: none;
+}
+.header h1 a span{
+    padding-left: 20px;
+    color: #6fc2e9;
+    
+}
+.auth {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(31, 97, 126, 0.6), rgba(29, 100, 131, 0.6)), url("../assets/img/hero-bg.jpg") top center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: -90px;
+}
+.text-Patt {
+    font-family: 'Pattaya', sans-serif !important;
+    font-size: 20px;
+}
+.text-Exo {
+    font-family: 'Exo', sans-serif;
+}
+.text_Noto{
+    font-family: 'Noto Serif JP', serif;
+}
+.text-IBM{
+    font-family: 'Noto Serif JP', serif;
+    background-color:  #2ab7ca;
+    color: white;
+    font-size: 30px; 
+    font-weight: bold; 
+    padding:10px; 
+    margin:0; 
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgb(0 0 0 /20%);
+
+}
+.icon-view {
+    color: #2ab7ca;
+    padding: 5px;
+}
+.icon-view:hover {
+    color: #0b8292;
+    transform: scale(1.5);
+}
+.icon-edit {
+    color: #fed766;
+    padding: 5px;
+}
+.icon-edit:hover {
+    color: #c09820;
+    transform: scale(1.5);
+}
+.icon-delete {
+    color: #fe4a49;
+    padding: 5px;
+}
+.icon-delete:hover {
+    color: #b31717;
+    transform: scale(1.5);
+}
+.center {
+    display: flex;  
+    justify-content: space-around;
+}
+.w3 {
+    text-align: center;
+    width: 3%;
+}
+.w5 {
+    text-align: center;
+    width: 5%;
+}
+.w6 {
+    text-align: center;
+    width: 6%;
+}
+.w10 {
+    text-align: center;
+    width: 10%;
+}
+.w15 {
+    text-align: center;
+    width: 15%;
+}
+.w20 {
+    text-align: center;
+    width: 20%;
+}
+.w25 {
+    text-align: center;
+    width: 25%;
+}
+.w30 {
+    text-align: center;
+    width: 30%;
+}
+.w40 {
+    text-align: center;
+    width: 40%;
+}
+.w50 {
+    text-align: center;
+    width: 50%;
+}
+.w60 {
+    text-align: center;
+    width: 60%;
+}
+
+.over_flow { 
+    width:100%;
+    white-space: pre-wrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+.over_flow:hover {
+    overflow: unset; 
+    -webkit-line-clamp: 99;
+
+}
+.search {
+    width: 105px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-search-icon-by-vexels.png');
+    background-size: 25px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 10px 15px 10px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    cursor: pointer;
+}
+.search:focus {
+    width: 230px;
+    border: 2px solid #2ab7ca;
+}
+.search:hover {
+    border: 2px solid #2ab7ca;
+}
+.right {
+    text-align: right;
+}
+.left {
+    text-align: left;
+}
+.d-right {
+    display: flex;
+    float: left;
+}
+.d-left {
+    display: flex;
+    float: left;
+}
+.calender {
+    display: flex; 
+    justify-content:space-between; 
+    overflow: auto; 
+    width: 100%;
+}
+.calender-item {
+    padding:0px 10px;
+    margin:0px 5px;
+    width: 17%;
+}
+.alert-hi {
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+    padding: 20px;
+    border-radius: 4px;
+}
+.limit-img {
+    max-height: 300px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+@media (max-width: 767.98px) {
+    #report .report_chart {
+        display: none;
+    }
+    #report .report_table {
+        display: block;
+    }
+    .calender {
+        display: block;
+    }
+    .calender-item {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 768px) {
+    
+    #report .report_table {
+        display: none;
+    }
+}
+
+#contact .right {
+    float: right;
+    display: inline-block; 
+}
+
+@media (max-width: 490px) {
+    #contact .right {
+        display: inline-block; 
+        float: none;
+    }
+}
+#create .mw-45 {
+    max-width: 45px;    
+}
+#create .fz-24 {
+    font-size:24px;
+}
+.mw-200px {
+    max-width: 200px;
+    border-radius: 10px;
+}
+.w-25 {
+    width: 25%;
+}

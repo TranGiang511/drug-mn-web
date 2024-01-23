@@ -1,0 +1,245 @@
+/*--------------------------------------------------------------
+# Back to top
+--------------------------------------------------------------*/
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%; 
+    background-color: rgb(107, 175, 239);
+}
+
+/*--------------------------------------------------------------
+# Banner/Slider
+--------------------------------------------------------------*/
+#carouselExampleIndicators {
+    max-width: 100%;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #f5f5f5;
+    padding: 20px 0;
+}
+
+.carousel-item {
+    text-align: center;
+    height: 500px;
+}
+
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 300px;
+    }
+}
+
+@media (max-width: 375px) {
+    .carousel-item {
+        height: 200px;
+    }
+}
+
+.carousel-inner img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    opacity: 1;
+    z-index: -1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-indicators {
+    margin-bottom: 10px;
+}
+
+.w3-button:hover {
+    background: rgba(0, 0, 0, 0.8);
+    transition: rgba(0, 0, 0, 0.8) 0.3s;
+}
+
+.carousel-caption {
+    color: #ffffff;
+    z-index: 1;
+}
+
+.custom-carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 20px;
+}
+
+.carousel-default h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.carousel-default p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.4;
+}
+
+.carousel-item .card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    height: 4.05em;
+    line-height: 1.35em;
+    white-space: normal;
+}
+
+/*--------------------------------------------------------------
+# News
+--------------------------------------------------------------*/
+
+.section {
+    padding-bottom: 50px;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 30px;
+    color: #2f4d5a;
+    z-index: 2;
+}
+
+#news .featured-carousel {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#news .featured-carousel .item {
+    width: 31%;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    #news .featured-carousel {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    #news .featured-carousel .item {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+#news .featured-carousel .item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#news .featured-carousel .item .card-body {
+    text-align: center;
+}
+
+#news .featured-carousel .item .card-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    height: 4.05em;
+    line-height: 1.35em;
+    white-space: normal;
+}
+
+#news .featured-carousel .item .card-content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 2.7em;
+    line-height: 1.35em;
+    white-space: normal;
+    margin-bottom: 20px;
+}
+
+#news .featured-carousel .item .btn {
+    background-color: #5AB9EA;
+    color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.info_contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-box {
+    flex: 1 0 0;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin: 0;
+}
+
+.info-box i {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #2172cd;
+}
+
+.info-box h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.info-box p {
+    font-size: 14px;
+    color: #666;
+}
+
+#contact iframe {
+    min-height: 570px; 
+    border:0; 
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    #contact iframe {
+        min-height: 300px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Calender
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+    #calendar .fc-view-harness {
+        height: 340px;
+    }
+}
+
+.fc-day:hover {
+    background-color: rgb(240, 201, 123);
+    color: white;
+}
+    
